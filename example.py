@@ -13,11 +13,10 @@ def main(argv):
     extractor.chunk_str(data)
     extractor.resolve_all_conference()
     print("Triple: ")
-    sudo apt-get install python-dev libxml2-dev libxslt-devprint('\n'.join(str(p) for p in extractor.triple_list))
+    print('\n'.join(str(p) for p in extractor.triple_list))
 	
     extractor.release()
 
 
 if __name__ == "__main__":
 	main(sys.argv)
-https://github.com/HIT-SCIR/ltp/archive/v3.3.0.zip
